@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVETA</title>
+
+    <link rel="stylesheet" href="index.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+
+    <!--Jquery CDN-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+    <script src="libs/gsap.min.js" defer></script>
+    <script src="libs/Draggable.min.js" defer></script>
+    <script src="libs/InertiaPlugin.min.js" defer></script>
+
+    <script src="libs/gsap/gsap.min.js" defer></script>
+    <script src="libs/gsap/ScrollTrigger.min.js" defer></script>
+    <script src="libs/gsap/ScrollSmoother.min.js" defer></script>
+
+    <script src="js/app.js" defer></script>
+
+
+    <style>
+        .gallery {
+            opacity: (0);
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header_conteiner">
+            <a href="#">
+                <img class="img_logo" src="img/logo.png" width="50px" alt="logo">
+            </a>
+            <div class="nav">
+                <ul class="nav_list">
+                    <li class="nav-link">
+                        <a href="#consultation">
+                            КОНСУЛЬТАЦИЯ
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#diagnosty">
+                            ДИАГНОСТИКА
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#aboutMe">
+                            ОБО МНЕ
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <a class="link" href="mailto:on-line@sveta">
+                НАПИСАТЬ МНЕ
+            </a>
+            <a href="tel:+79778073083" class="buttom call_me">
+                ПОЗВОНИТЬ МНЕ
+            </a>
+        </header>
+
+        <main class="main">
+            <div class="gallery">
+                <div class="gallery_item">
+                    <img src="img/people.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people1.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people2.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people3.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people4.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people5.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people6_1.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people1.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people2.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people3.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people4.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people5.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people6_1.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people1.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people2.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people3.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people4.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people5.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people6_1.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people1.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people2.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people3.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people4.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people5.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people6_1.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people1.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people2.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people3.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people4.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people5.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people6_1.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people1.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people2.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people3.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people4.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people5.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people6_1.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people1.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people2.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people3.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people4.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people5.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people6_1.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people1.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people2.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people3.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people4.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people5.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people6_1.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people1.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people2.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people3.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people4.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people5.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people6_1.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people1.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people2.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people3.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people4.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people5.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people6_1.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people1.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people2.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people3.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people4.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people5.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people6_1.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people1.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people2.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people3.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people4.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people5.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people6_1.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people1.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people2.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people3.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people4.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people5.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people6_1.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people1.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people2.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people3.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people4.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people5.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people6_1.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people1.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people2.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people3.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people4.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people5.svg" alt="">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/people6_1.svg" alt="">
+                </div>
+
+            </div>
+
+            <div class="header_text">
+                <h3 class="under_text">
+                    Сайт где вы можете получить помощь психолога
+                </h3>
+
+                <h1 class="main_text">
+                    СЧАСТЛИВЫМ нужно БЫТЬ
+                </h1>
+
+
+                <a class="buttom call_me main_buttom" href="tel:+79778073083">
+                    ПОЗВОНИТЬ МНЕ
+                </a>
+
+            </div>
+        </main>
+
+
+        <div class="works_conteiner">
+            <div class="text_works_item">
+                <h2 class="works_item_header">
+                    ЧЕМ Я ЗАНИМАЮСЬ
+                </h2>
+
+                <p class="works_item_text">
+                    СИТУАЦИИ В КОТОРЫХ Я <span>ГОТОВА ПОМОЧЬ ВАМ</span>
+                </p>
+            </div>
+
+            <div class="items_conteiner">
+
+                <div class="works_item ">
+                    <div class="work_block bluer">
+                        Выстроить комфортное общение
+
+                        <div class="works_description">
+                            <p class="description_text">Научиться здоровой коммуникации с партнёром, семьёй,
+                                друзьями и
+                                коллегами
+                                Научиться здоровой коммуникации с партнёром, семьёй,
+                                друзьями и
+                                коллегами</p>
+                            <img src="img/discription1.png" alt="" class="discription_img">
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="works_item">
+                    <div class="work_block yellow">
+                        Справиться с выгоранием и прокрастинацией
+                        <div class="works_description ">
+                            <p class="description_text">Научиться здоровой коммуникации с партнёром, семьёй,
+                                друзьями и
+                                коллегами
+                                Научиться здоровой коммуникации с партнёром, семьёй,
+                                друзьями и
+                                коллегами</p>
+                            <img src="img/discription2.png" alt="" class="discription_img">
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="works_item">
+                    <div class="work_block pink">
+                        Выстроить комфортное общение
+                        <div class="works_description ">
+                            <p class="description_text">Научиться здоровой коммуникации с партнёром, семьёй,
+                                друзьями и
+                                коллегами
+                                Научиться здоровой коммуникации с партнёром, семьёй,
+                                друзьями и
+                                коллегами</p>
+                            <img src="img/discription3.png" alt="" class="discription_img">
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="works_item">
+                    <div class="work_block green">
+                        Выстроить комфортное общение <div class="works_description ">
+                            <p class="description_text">
+                                Научиться здоровой коммуникации с партнёром, семьёй,
+                                друзьями и
+                                коллегами
+                                Научиться здоровой коммуникации с партнёром, семьёй,
+                                друзьями и
+                                коллегами</p>
+                            <img src="img/discription4.png" alt="" class="discription_img">
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="start">
+            <div class="start_conteiner">
+                <div class="hero">
+                    <h2 data-speed="1.1" class="hero_text">КАК НАЧАТЬ</h2>
+                    <img data-speed=".8" class="img_hero" src="img/artPhsy.png" alt="">
+                </div>
+
+                <div class="box_start">
+                    <div data-speed="1" class="box_start_left">
+                        <div class="item_start">
+                            <h2 class="header_item_start">
+                                Познакомимся с вашим внутренним миром
+                            </h2>
+                            <p class="discription_item_start">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia atque consequuntur
+                                tempora veritatis perspiciatis eum excepturi sint, tempore officia nesciunt harum sequi
+                                sit ratione accusantium consectetur? Ea, veritatis maiores! Laborum!
+                            </p>
+                            <img class="img_item_start" src="img/Phsy3.jpg" alt="">
+                        </div>
+                        <div class="item_start">
+                            <h2 class="header_item_start">
+                                Наметим цели
+                            </h2>
+                            <p class="discription_item_start">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia atque consequuntur
+                                tempora veritatis perspiciatis eum excepturi sint, tempore officia nesciunt harum sequi
+                                sit ratione accusantium consectetur? Ea, veritatis maiores! Laborum!
+                            </p>
+                            <img class="img_item_start" src="img/Phsy4.png" alt="">
+                        </div>
+
+                        <div class="item_start">
+                            <h2 class="header_item_start">
+                                Составим дорожную карту
+                            </h2>
+                            <p class="discription_item_start">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia atque consequuntur
+                                tempora veritatis perspiciatis eum excepturi sint, tempore officia nesciunt harum sequi
+                                sit ratione accusantium consectetur? Ea, veritatis maiores! Laborum!
+                            </p>
+                            <img class="img_item_start" src="img/Phsy2.jpg" alt="">
+                        </div>
+
+                    </div>
+
+                    <div data-speed="1.4" class="box_start_right">
+                        <div class="item_start">
+                            <img class="img_item_start" src="img/Phsy6.png" alt="">
+                            <h2 class="header_item_start">
+                                Распишем план занятий
+                            </h2>
+                            <p class="discription_item_start">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia atque consequuntur
+                                tempora veritatis perspiciatis eum excepturi sint, tempore officia nesciunt harum sequi
+                                sit ratione accusantium consectetur? Ea, veritatis maiores! Laborum!
+                            </p>
+                        </div>
+                        <div class="item_start">
+                            <img class="img_item_start" src="img/Phsy7.jpg" alt="">
+                            <h2 class="header_item_start">
+                                Разработаем индивидуальную программу
+                            </h2>
+                            <p class="discription_item_start">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia atque consequuntur
+                                tempora veritatis perspiciatis eum excepturi sint, tempore officia nesciunt harum sequi
+                                sit ratione accusantium consectetur? Ea, veritatis maiores! Laborum!
+                            </p>
+                        </div>
+                        <div class="item_start">
+                            <img class="img_item_start" src="img/Phsy3.jpg" alt="">
+                            <h2 class="header_item_start">
+                                Начнем счастливую, новую жизнь
+                            </h2>
+                            <p class="discription_item_start">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia atque consequuntur
+                                tempora veritatis perspiciatis eum excepturi sint, tempore officia nesciunt harum sequi
+                                sit ratione accusantium consectetur? Ea, veritatis maiores! Laborum!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="consultation" class="talk">
+            <div class="talk_conteiner">
+                <h2 class="talk_conteiner_header">
+                    Где происходит общение ?
+                </h2>
+                <div class="item_talk">
+                    <div class="item_talk_description">
+                        <h2 class="talk_conteiner_header">
+                            Поддержка в мессенджерах
+                        </h2>
+                        <p class="talk_description_text">
+                            Пишите мне в любое время суток. Вам доступны чаты в WhatsApp, Telegram, Skype.
+                        </p>
+                    </div>
+
+                    <div class="item_talk_img">
+                        <img class="talk_img" src="img/call_girl.svg" alt="">
+                    </div>
+                </div>
+                <div class="item_talk">
+                    <div class="item_talk_img">
+                        <img class="talk_img" src="img/girl_online.png" alt="">
+                    </div>
+                    <div class="item_talk_description">
+                        <h2 class="talk_conteiner_header">
+                            Общение в видеочатах
+                        </h2>
+                        <p class="talk_description_text">
+                            Еженедельные видео-сессии с вашим психологом. Вам доступны чаты в WhatsApp, Viber, Telegram,
+                            Skype.
+                        </p>
+                    </div>
+
+
+                </div>
+                <div class="item_talk">
+                    <div class="item_talk_description">
+                        <h2 class="talk_conteiner_header">
+                            Звонки
+                            по телефону
+                        </h2>
+                        <p class="talk_description_text">
+                            Еженедельные голосовые консультации с вашим психологом. Вам доступны звонки в по телефону,
+                            WhatsApp, Telegram, Skype.
+                        </p>
+                    </div>
+
+                    <div class="item_talk_img">
+                        <img class="talk_img" src="img/girl_phone.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="aboutMe" class="adout_me">
+            <div class="about_me_conteiner">
+                <div class="adout_me_box">
+                    <section class="adout_me_discription">
+                        <h2 class="adout_me_header">
+                            моя миссия
+                        </h2>
+                        <p class="adout_me_text">
+                            Здесь будет твоя фотография, с описанием твоего обучения, опыта и т.д.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, aspernatur officia
+                            voluptatem numquam consequuntur non qui beatae, quod animi tenetur, odio nesciunt illo
+                            tempore?
+                            Consequuntur!
+                        </p>
+                        <img src="img/diplom.jpeg" alt="">
+                    </section>
+                    <div class="adout_me_img">
+                        <img src="img/peopleSveta.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="reviews">
+            <div class="reviews_conteiner">
+                <h2 class="review_header">
+                    ОТЗЫВЫ
+                </h2>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+
+                        <div class="reviews_item swiper-slide">
+                            <img class="swiper-slide" src="img/people7.svg" alt="">
+                            <h2 class="reviews_item_header">Анна</h2>
+                            <p class="reviews_item_text">
+                                Страшно вспоминать, не знаю что бы делал.
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A repellendus autem vero
+                                molestias blanditiis
+                                impedit deserunt iure labore tenetur, soluta, ducimus id, fugit quis perspiciatis rerum.
+                                Repellendus
+                                blanditiis porro animi, dolores numquam molestias!
+                            </p>
+                        </div>
+                        <div class="reviews_item swiper-slide">
+                            <img class="swiper-slide" src="img/people8.svg" alt="">
+                            <h2 class="reviews_item_header">Максим</h2>
+                            <p class="reviews_item_text">
+                                Страшно вспоминать, не знаю что бы делал.
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A repellendus autem vero
+                                molestias blanditiis
+                                impedit deserunt iure labore tenetur, soluta, ducimus id, fugit quis perspiciatis rerum.
+                                Repellendus
+                                blanditiis porro animi, dolores numquam molestias!
+                            </p>
+                        </div>
+                        <div class="reviews_item swiper-slide">
+                            <img class="swiper-slide" src="img/people9.svg" alt="">
+                            <h2 class="reviews_item_header">Иван</h2>
+                            <p class="reviews_item_text">
+                                Страшно вспоминать, не знаю что бы делал.
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A repellendus autem vero
+                                molestias blanditiis
+                                impedit deserunt iure labore tenetur, soluta, ducimus id, fugit quis perspiciatis rerum.
+                                Repellendus
+                                blanditiis porro animi, dolores numquam molestias!
+                            </p>
+                        </div>
+                        <div class="reviews_item swiper-slide">
+                            <img class="swiper-slide" src="img/people7.svg" alt="">
+                            <h2 class="reviews_item_header">Анна</h2>
+                            <p class="reviews_item_text">
+                                Страшно вспоминать, не знаю что бы делал.
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A repellendus autem vero
+                                molestias blanditiis
+                                impedit deserunt iure labore tenetur, soluta, ducimus id, fugit quis perspiciatis rerum.
+                                Repellendus
+                                blanditiis porro animi, dolores numquam molestias!
+                            </p>
+                        </div>
+                        <div class="reviews_item swiper-slide">
+                            <img class="swiper-slide" src="img/people8.svg" alt="">
+                            <h2 class="reviews_item_header">Максим</h2>
+                            <p class="reviews_item_text">
+                                Страшно вспоминать, не знаю что бы делал.
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A repellendus autem vero
+                                molestias blanditiis
+                                impedit deserunt iure labore tenetur, soluta, ducimus id, fugit quis perspiciatis rerum.
+                                Repellendus
+                                blanditiis porro animi, dolores numquam molestias!
+                            </p>
+                        </div>
+                        <div class="reviews_item swiper-slide">
+                            <img class="swiper-slide" src="img/people9.svg" alt="">
+                            <h2 class="reviews_item_header">Иван</h2>
+                            <p class="reviews_item_text">
+                                Страшно вспоминать, не знаю что бы делал.
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A repellendus autem vero
+                                molestias blanditiis
+                                impedit deserunt iure labore tenetur, soluta, ducimus id, fugit quis perspiciatis rerum.
+                                Repellendus
+                                blanditiis porro animi, dolores numquam molestias!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="cost">
+            <div class="cost_conteiner">
+                <div class="cost_item">
+                    <div class="cost_item_text">
+                        <h2>
+                            Стоимость одной консультации <br><br>
+                            <span> 2 500</span> рублей<br> Разовая консультация
+                        </h2>
+                    </div>
+                    <div class="buttom cost_btn">записаться</div>
+                </div>
+                <div class="cost_item">
+                    <div class="cost_item_text">
+                        <h2>
+                            Стоимость одной консультации <br><br>
+                            <span>2 250</span> рублей<br> При покупке аббонемента на 4 консультации стоимостью 9 000
+                            рублей
+                        </h2>
+
+                    </div>
+                    <div class="buttom cost_btn">записаться</div>
+                </div>
+                <div class="cost_item">
+                    <div class="cost_item_text">
+                        <h2>
+                            Стоимость одной консультации <br><br>
+                            <span>2 150</span> рублей<br>
+                            При покупке аббонемента на 12 консультации стоимостью 25 500 рублей
+                        </h2>
+
+                    </div>
+                    <div class="buttom cost_btn">записаться</div>
+                </div>
+            </div>
+        </div>
+
+        <div id="diagnosty" class="form">
+            <div class="form_conteiner">
+                <h2 class="form_header">
+                    ЗАПИСАТЬСЯ НА ПРИЕМ
+                </h2>
+
+                <form class="form_box">
+                    <!-- Hidden Required Fields -->
+                    <input type="hidden" name="project_name" value="Заявка с сайта психолога">
+                    <input type="hidden" name="admin_email" value="m-klikov@ya.ru">
+                    <input type="hidden" name="form_subject" value="Запрос с сайта">
+                    <!-- END Hidden Required Fields -->
+
+                    <input class="input" type="text" placeholder="Ваше Имя">
+                    <input class="input" type="text" placeholder="Ваш телефон">
+                    <button type="submit" class="buttom btn_form">отправить</button>
+                    <p>нажимая кнопку отправить вы даете свое согласие на работу с вашими данными</p>
+                </form>
+
+
+            </div>
+        </div>
+
+
+
+
+        <footer class="footer">
+            <div class="footer_conteiner">
+                <div class="footer_box">
+                    <div class="footer_nav">
+                        <ul class="footer_nav_list">
+                            <li class="footer_nav_link">
+                                <a href="#">
+                                    консультация
+                                </a>
+                            </li>
+                            <li class="footer_nav_link">
+                                <a href="#">
+                                    диагностика
+                                </a>
+                            </li>
+                            <li class="footer_nav_link">
+                                <a href="#">
+                                    обо мне
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="bottom btn_footer"> <a href="tel:+79778073083"> позвонить</a></div>
+
+                    <div class="footer_text">
+                        все права защищены &#169;
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            loop: true,
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+
+    <script src="script.js" defer></script>
+
+</body>
+
+</html>
